@@ -68,7 +68,7 @@ namespace Lab5
 
         public static int RollDie(int sides, Random x)
         {
-            int roll = x.Next(1, sides);
+            int roll = x.Next(1, sides+1);
             return roll;
         }
 
